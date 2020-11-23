@@ -1,5 +1,9 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { shade } from 'polished';
+
+interface FormProps {
+  hasError: boolean;
+}
 
 export const Title = styled.h1`
   color: #3a3a3a;
@@ -9,7 +13,7 @@ export const Title = styled.h1`
   max-width: 450px;
 `;
 
-export const Form = styled.form`
+export const Form = styled.form<FormProps>`
   display: flex;
   margin-top: 40px;
   max-width: 700px;
@@ -21,6 +25,15 @@ export const Form = styled.form`
     color: #3a3a3a;
     padding: 0 24px;
     border-radius: 5px 0 0 5px;
+    border: 2px solid #fff;
+    border-right: 0;
+    transition: border-color 0.1s;
+
+    ${props =>
+      props.hasError &&
+      css`
+        border-color: #c53030;
+      `} // função no css
 
     &::placeholder {
       color: #a8a8b3;
@@ -43,27 +56,35 @@ export const Form = styled.form`
   }
 `;
 
+export const Error = styled.span`
+  color: #c53030;
+  display: block;
+  margin-top: 8px;
+`;
+
 export const Repositories = styled.div`
   margin-top: 80px;
   max-width: 700px;
 
   a {
     width: 100%;
-    padding: 24px;
+    padding: 22px;
     display: block;
     display: flex;
     align-items: center;
     background: #fff;
     border-radius: 5px;
     text-decoration: none;
+    border: 2px solid transparent;
     transition: transform 0.2s;
 
-    & + a  {
+    & + a {
       margin-top: 16px;
     }
 
     &:hover {
       transform: translateX(10px);
+      border: 2px solid #04d361;
     }
 
     img {
@@ -73,7 +94,8 @@ export const Repositories = styled.div`
     }
 
     div {
-      margin-left: 16px;
+      flex: 1;
+      margin: 0 16px;
 
       strong {
         color: #3d3d4d;
@@ -87,8 +109,9 @@ export const Repositories = styled.div`
       }
     }
 
-  svg {
-    color: #cbcbd6;
-    margin-left: auto;
+    svg {
+      color: #cbcbd6;
+      margin-left: auto;
+    }
   }
 `;
