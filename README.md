@@ -97,7 +97,7 @@ ou baixe o zip do botão verde no início do repositório
 
 ## 📝 Meta
 
-Gabriel de Jesus - [Meu portfólio] (https://gabrieldesenvolvedor.com/) - oi@gabrieldesenvolvedor.com
+Gabriel de Jesus - [Meu portfólio](https://gabrieldesenvolvedor.com/) - oi@gabrieldesenvolvedor.com
 
 Distribuído sob a licença MIT. Consulte [LICENSE](LICENSE) para obter mais informações.
 
