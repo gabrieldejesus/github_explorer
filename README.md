@@ -1,114 +1,71 @@
-_English_
-
 # GitHub Explorer
 
 🐙 An application that searches and visualizes public repositories on GitHub
 
-`Web preview`
 ![](web-preview.gif)
 
-## 📈 Example usage
+<p align="center">
+  <img alt="PRs welcome!" src="https://img.shields.io/static/v1?label=PRs&message=WELCOME&style=for-the-badge&color=00D459&labelColor=222222" />
+     
+   <img alt="Stars" src="https://img.shields.io/github/stars/gabrieldejesus/github_explorer?color=00D459&label=STARS&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+   <img alt="Forks" src="https://img.shields.io/github/forks/gabrieldejesus/github_explorer?color=00D459&label=FORKS&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+   <img alt="Issues" src="https://img.shields.io/github/issues/gabrieldejesus/github_explorer?color=00D459&label=ISSUES&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+   <img alt="GitHub license" src="https://img.shields.io/github/license/gabrieldejesus/github_explorer?color=00D459&label=LICENSE&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+  <a href="https://github.com/gabrieldejesus">
+    <img alt="Follow gabrieldejesus" src="https://img.shields.io/static/v1?label=Follow&message=gabrieldejesus&style=for-the-badge&color=00D459&labelColor=222222" />
+  </a>
+</p>
+
+## 📈 Example of use
 
 The application consumes the public API of GitHub and can search repositories just type in the user name and its repository in the empty field and press the search button.
-The application also returns the number of starts, forks and open questions in the selected repository.
 
-## 🚀 Getting started
+Also returns the number of starts, forks and open questions in the selected repository.
+
+## 🛠 Getting started
 
 Windows:
 
 You can clone the repository through CMD (Command Prompt) just by typing:
 
 ```sh
-git clone https://github.com/devgabrieldejesus/github_explorer
+git clone https://github.com/gabrieldejesus/github_explorer
 ```
 
 or download the zip from the green button at the beginning of the repository
 
-![](clone.png)
+<img src="https://i.ibb.co/3mLnKMH/clone.png" alt="Download zip" border="0">
 
-![](clone-zip.png)
+<img src="https://i.ibb.co/3M5CXKm/clone-zip.png" alt="Download zip" border="0">
 
 ## 🗃 Release history
 
 - 0.1.0
   - Project finalized and studying the possibility of adding new resources
-  - The first suitable launch
+  - The first suitable lauch
 - 0.0.1
   - Work in progress
 
 ## 📝 Meta
 
-Gabriel de Jesus – [My portfolio](https://gabrieldesenvolvedor.com/) – oi@gabrieldesenvolvedor.com
+Gabriel de Jesus – [My portfolio](https://gabrieldesenvolvedor.com) – devgabrieldejesus@gmail.com
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-[https://github.com/devgabrieldejesus/github_explorer](https://github.com/devgabrieldejesus/)
+[https://github.com/gabrieldejesus/github_explorer](https://github.com/gabrieldejesus)
 
-## 🚀 Contributing
+## 🚀 Contribution
 
-1. Fork it (<https://github.com/devgabrieldejesus/github_explorer/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1. Make the _fork_ of the project (<https://github.com/gabrieldejesus/github_explorer/fork>)
+2. Create a _branch_ for your modification (`git checkout -b my-new-resource`)
+3. Do _commit_ (`git commit -am 'Adding a new resource ...'`)
+4. _Push_ (`git push origin my-new-feature`)
+5. Create a new _Pull Request_
 
 **After your pull request is merged**, you can safely delete your branch.
 
 ---
-
-_Português_
-
-# GitHub Explorer
-
-🐙 Uma aplicação que pesquisa e visualiza repositórios públicos no GitHub
-
-`Visualização da Web`
-![](web-preview.gif)
-
-## 📈 Exemplo de uso
-
-A aplicação consome a API pública do GitHub e pode pesquisar repositórios basta digitar no campo vazio o nome do usuário e o repositório do mesmo e pressionar o botão de pesquisa.
-
-A aplicação também retorna o número de Start, Forks e Issues abertas no repositório selecionado.
-
-## 🚀 Primeiros passos
-
-Windows:
-
-Você pode clonar o repositório por meio do CMD (Prompt de Comando) apenas digitando:
-
-```sh
-git clone https://github.com/devgabrieldejesus/github_explorer
-```
-
-ou baixe o zip do botão verde no início do repositório
-
-![](clone.png)
-
-![](clone-zip.png)
-
-## 🗃 Histórico de lançamento
-
-- 0.1.0
-  - Projeto finalizado e estudando a possibilidade de agregar novos recursos
-  - O primeiro lançamento adequado
-- 0.0.1
-  - Trabalho em progresso
-
-## 📝 Meta
-
-Gabriel de Jesus - [Meu portfólio](https://gabrieldesenvolvedor.com/) - oi@gabrieldesenvolvedor.com
-
-Distribuído sob a licença MIT. Consulte [LICENSE](LICENSE) para obter mais informações.
-
-[https://github.com/devgabrieldejesus/github_explorer](https://github.com/devgabrieldejesus/)
-
-## 🚀 Contribuição
-
-1. Fork it (<https://github.com/devgabrieldejesus/github_explorer/fork>)
-2. Crie seu branch de recurso (`git checkout -b meu-novo-recurso`)
-3. Faça commit de suas alterações (`git commit -am 'Adicionando algum recurso'`)
-4. Envie para o branch (`git push origin meu-novo-recurso`)
-5. Crie uma nova solicitação pull
-
-**Depois que sua solicitação pull for mesclada**, você pode excluir seu branch com segurança.
